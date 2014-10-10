@@ -35,6 +35,15 @@ public class MainActivity extends Activity {
 				startActivity(i);
 			}
 		});
+day[1].setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent("com.example.mdglecture.DAY2");
+				startActivity(i);
+			}
+		});
     }
 
 
