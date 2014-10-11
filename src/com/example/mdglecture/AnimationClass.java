@@ -20,7 +20,7 @@ public class AnimationClass extends Activity{
 		view = (ImageView) findViewById(R.id.imageAnimation);
 
 		// Setting animation_list.xml as the background of the image view
-	//	view.setBackgroundResource(R.drawable.frame_animation_list);
+		view.setBackgroundResource(R.drawable.frame_animation_list);
 
 		// Type casting the Animation drawable
 		frameAnimation = (AnimationDrawable) view.getBackground();
