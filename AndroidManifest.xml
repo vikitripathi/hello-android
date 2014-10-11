@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.mdglecture.Day3"
+            android:name="com.example.mdglecture.BasicAccelerometer"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.mdglecture.DAY3" />
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.mdglecture.Day1"
+            android:name="com.example.mdglecture.BasicLayout"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.mdglecture.DAY1" />
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
          <activity
-            android:name="com.example.mdglecture.Day2"
+            android:name="com.example.mdglecture.BasicMediaPlayer"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.mdglecture.DAY2" />

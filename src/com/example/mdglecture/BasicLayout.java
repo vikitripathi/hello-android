@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Day1 extends Activity{
+public class BasicLayout extends Activity{
 
 	Button add,sub ;
 	TextView display;
@@ -14,7 +14,7 @@ public class Day1 extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.day1);
+        setContentView(R.layout.activity_layout);
         
         add = (Button)findViewById(R.id.add);
         sub = (Button)findViewById(R.id.sub);

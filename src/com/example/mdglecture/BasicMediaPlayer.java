@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Day2 extends Activity {
+public class BasicMediaPlayer extends Activity {
 
 	Button play,pause,stop ;
 	MediaPlayer song ;
@@ -19,7 +19,7 @@ public class Day2 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.day2);
+		setContentView(R.layout.activity_mediaplayer);
 		play = (Button)findViewById(R.id.play);
 		pause = (Button)findViewById(R.id.pause);
 		stop = (Button)findViewById(R.id.stop);

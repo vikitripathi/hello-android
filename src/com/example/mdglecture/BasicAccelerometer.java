@@ -12,7 +12,7 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 
-public class Day3 extends Activity implements SensorEventListener{
+public class BasicAccelerometer extends Activity implements SensorEventListener{
 
 	Bitmap ball;
 	Sensor sensor;
