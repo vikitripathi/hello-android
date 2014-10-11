@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:orientation="vertical"
+    android:orientation="vertical"
     tools:context=".MainActivity" >
 
     <Button
@@ -10,8 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:textSize="25dp"
-        android:text="Basic Layout" />
+        android:text="Basic Layout"
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/btn_animation"
@@ -27,6 +27,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Accelerometer"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Media Player"
         android:textSize="25dp" />
 
 </LinearLayout>

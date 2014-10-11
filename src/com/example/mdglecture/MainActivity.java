@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-	Button[] module = new Button[3];
+	Button[] module = new Button[4];
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
 		module[0] = (Button) findViewById(R.id.btn_layout);
 		module[1] = (Button) findViewById(R.id.btn_animation);
 		module[2] = (Button) findViewById(R.id.btn_accel);
+		module[3] = (Button) findViewById(R.id.btn_media);
 
 
 		module[0].setOnClickListener(new View.OnClickListener() {
@@ -43,6 +44,15 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent i = new Intent(MainActivity.this , BasicAccelerometer.class);
+				startActivity(i);
+			}
+		});
+		module[3].setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(MainActivity.this , BasicMediaPlayer.class);
 				startActivity(i);
 			}
 		});
